@@ -1,0 +1,21 @@
+.WrapMovieDetail {
+  display: flex;
+  gap: 10px;
+}
+
+.WrapImage {
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.ContainerImage {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.Image {
+  max-width: 100%;
+  object-fit: cover;
+}
