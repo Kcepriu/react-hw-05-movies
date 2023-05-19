@@ -2,6 +2,7 @@
   "name": "test_route",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Kcepriu.github.io/react-hw-05-movies/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
