@@ -7,11 +7,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:js": "eslint src/**/*.{js,jsx,tsx}"  
-
+    "lint": "next lint"
+    
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^13.4.3",
     "@next/react-refresh-utils": "^13.4.2",
     "@types/node": "20.1.5",
     "@types/react": "18.2.6",
