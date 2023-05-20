@@ -3,7 +3,7 @@ const path = require("path");
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
-let assetPrefix = "";
+let assetPrefix = "./";
 let basePath = "/";
 
 if (isGithubActions) {
