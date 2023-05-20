@@ -15,6 +15,7 @@ jobs:
         run: |
           npm install
           npm run lint
+          touch build/.nojekyll
           npm run build
 
       - name: Deploy 🚀
