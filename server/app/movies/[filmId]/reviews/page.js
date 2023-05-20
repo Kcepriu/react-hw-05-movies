@@ -444,7 +444,7 @@ function Page({ params: { filmId  }  }) {
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [859,474,194,476,556,315], () => (__webpack_exec__(3594)));
+var __webpack_exports__ = __webpack_require__.X(0, [859,474,194,476,556,7], () => (__webpack_exec__(3594)));
 module.exports = __webpack_exports__;
 
 })();
