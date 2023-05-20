@@ -14,9 +14,10 @@ jobs:
       - name: Install, lint, build 🔧
         run: |
           npm install
-          npm run lint
-          touch build/.nojekyll
+          npm run lint          
           npm run build
+          npm run export
+          touch build/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
